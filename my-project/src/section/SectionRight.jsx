@@ -366,7 +366,7 @@ const SectionRightDiv = styled.div`
        margin-left: 20px;
    }
    .rightSmallDiv2_top_p2{
-      margin-left: 160px;
+      margin-left: 20px;
    }
    
    
