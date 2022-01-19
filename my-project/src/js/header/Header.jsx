@@ -13,6 +13,7 @@ const Header =()=>{
                 <img className="img4" src={img4} alt="" />
             </HeaderLeft>
             <HeaderRight>
+                <div className="header-line"></div>
                 <img className="img1" src={img2} alt="" />
                 <img className="img2" src={img3} alt="" />
                 <img className="img3" src={img1} alt="" />
@@ -31,6 +32,16 @@ const HeaderDiv =styled.div`
     justify-content: space-between;
     border: 0;
     border-bottom: 1px solid #e0e0e0;
+
+    .header-line{
+        width: 1px;
+        width: 1px;
+        height: 25px;
+        background-color: #e0e0e0;
+        position: absolute;
+        margin-left: 12px;
+        
+    }
     
     
 
@@ -69,5 +80,6 @@ const HeaderRight = styled.div`
         margin-left: 30px;
         position: relative;
     }
+    
     
 `
