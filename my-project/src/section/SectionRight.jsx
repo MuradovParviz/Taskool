@@ -327,8 +327,8 @@ const SectionRightDiv = styled.div`
        padding-bottom: 20px;
    }
    .rightSmallDiv1 button{
-       width: 134px;
-       height: 48px;
+       width: 93px;
+       height: 40px;
        border: 0;
        border-radius: 5px;
        background-color: #FFE01B;
@@ -412,7 +412,7 @@ const SectionRightDiv = styled.div`
    
     /* todo list end */
    .bottom1{
-       width: 100%;
+       width: 20%;
        height: 60%;
        display: flex;
        flex-direction: column;
@@ -420,7 +420,8 @@ const SectionRightDiv = styled.div`
        justify-content: center;
        display: none;
        transition: .5s;
-       
+       margin-right:  25%;
+       margin-bottom: 20px;
        
    }
    .weekSmall{
@@ -448,7 +449,7 @@ const SectionRightDiv = styled.div`
        height: 90%;
        display: none;
        transition: .5s;
-       margin-left: 12%;
+       margin-left: 4%;
    }
    .bottom2-div1{
        width: 90%;
