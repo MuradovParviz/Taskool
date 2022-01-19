@@ -257,9 +257,17 @@ const SectionRightDiv = styled.div`
        align-items: flex-end;
        justify-content: center;
        display: none;
-       transition: .5s;
-       
-       
+       transition: .5s;  
+       margin-right:20px; 
+   }
+   .bottom1::after{
+       content: "";
+       width: 1px;
+       height: 140px;
+       background-color: #8f8f8f;
+       position: absolute;
+       border: 0;
+
    }
    .weekSmall{
        width: 110px;
@@ -309,7 +317,178 @@ const SectionRightDiv = styled.div`
        margin-right:10px;
    }
    }
-   @media screen and (max-width: 1000px) and (min-width: 300px){
+   @media screen and (max-width: 1000px) and (min-width: 600px){
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    font-family: Euclid Circular A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   .rightSmallDiv1{
+       width: 85%;
+       height: 60px;
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-end;
+       padding-bottom: 20px;
+   }
+   .rightSmallDiv1 button{
+       width: 93px;
+       height: 40px;
+       border: 0;
+       border-radius: 5px;
+       background-color: #FFE01B;
+   }
+   .rightChild{
+       display: flex;
+       flex-direction: column;
+   }
+   .rightChild-span1{
+       font-size: 18px;
+   }
+   .rightChild-span2{
+       font-size: 15px;
+       color: #4f4f4f;
+   }
+   .rightSmallDiv{
+       width: 85%;
+       height: auto;
+       border: 1px solid #8f8f8f;
+       border-radius: 4px;
+       margin-top: 20px;
+       display: flex;
+       flex-direction: column;
+   }
+   .rightSmallDiv2_top{
+       width: 100%;
+       height: 23%;
+       display: flex;
+       justify-content: space-between;
+   }
+   .rightSmallDiv2_top_small{
+       width: 100%;
+   }
+   .rightSmallDiv2_top_p1{
+       margin-left: 20px;
+   }
+   .rightSmallDiv2_top_p2{
+      margin-left: 20px;
+   }
+   
+   
+   .rightSmallDiv2_top img{
+       width: 35px;
+       height: 35px;
+       margin-right: 20px;
+       margin-top: 15px;
+       transform: rotate(-90deg);
+       transition: 0.5s;
+   }
+
+   .rightSmallDiv2_bottom{
+       width: 100%;
+       height: 0px;
+       display: flex;
+       align-items: center;
+       transition: 0.5s;
+   }
+   /* todo list start */
+   .rightSmallDiv:hover .rightSmallDiv2_bottom{
+     height: 250px;
+
+   }
+   .rightSmallDiv:hover .bottom1{
+       display: block;
+       width: 50%;
+       height: 60%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       justify-content: center;
+   }
+   .rightSmallDiv:hover .bottom2{
+       display: block;
+       width: 50%;
+       height: 90%;
+   }
+   .rightSmallDiv:hover .rightSmallDiv2_top img{
+       transform: rotate(0deg);
+   }
+   
+    /* todo list end */
+  
+   .bottom1{
+       width: 50%;
+       height: 60%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       justify-content: center;
+       display: none;
+       transition: .5s;
+       position:relative;      
+   }
+   .bottom1::after{
+       content: "";
+       width: 1px;
+       height: 140px;
+       background-color: #8f8f8f;
+       position: absolute;
+
+   }
+   .weekSmall{
+       width: 110px;
+       height: 30px;
+       margin-top: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       font-size: 12px;
+       margin-right: 30px;
+   }
+   .weekSmall img {
+       width: 25px;
+       height: 25px;
+   }
+   .circle{
+       width: 24px;
+       height: 24px;
+       border: 1px solid #8f8f8f;
+       border-radius: 50%;
+   }
+   .bottom2{
+       width: 50%;
+       height: 90%;
+       display: none;
+       transition: .5s;
+       margin-left: 4%;
+   }
+   
+   .bottom2-div1{
+       width: 90%;
+       height: auto;
+       display: flex;
+       justify-content: space-between;
+   }
+   .bottom2-div2{
+       width: 100%;
+       height: 25px;
+       display: flex;
+       align-items: center;
+       
+
+   }
+   
+   
+   .bottom2-div2 img{
+       width: 24px;
+       height: 24px;
+       margin-right:10px;
+   }
+   }
+   @media screen and (max-width: 600px) and (min-width: 300px){
     width: 100%;
     height: auto;
     margin-top: 20px;
@@ -420,9 +599,19 @@ const SectionRightDiv = styled.div`
        justify-content: center;
        display: none;
        transition: .5s;
-       margin-right:  25%;
+       margin-right:  15%;
        margin-bottom: 20px;
+       position: relative;
        
+   }
+   .bottom1::after{
+       content: "";
+       width: 150px;
+       height: 1px;
+       background-color: #8f8f8f;
+       position: absolute;
+       bottom: -14px;
+       left: 30%;
    }
    .weekSmall{
        width: 110px;
